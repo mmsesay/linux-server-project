@@ -1,18 +1,19 @@
 # linux-server-project
 This is the udacity linux server configuration project
 
-# Login to using the SSH
+## Login to using the SSH
 1. Clone this repository
 2. Move the private key file into the folder ~/.ssh (where ~ is your environment's home directory). So if you cloned the folder, just execute the following command in your terminal. mv ~/<repo_path>/udacity_key ~/.ssh/
 3. Open your terminal and type in chmod 600 ~/.ssh/udacity_key
 4. In your terminal, type in ssh -i ~/.ssh/udacity_key ubuntu@18.184.54.64
 
-# Server Details
+## Server Details
 - IP address : 18.184.54.64
 - SSH PORT : 2200
 - HOSTED APPLICATION URL : http://18.184.54.64/
+- Note: your grader password is: grader
 
-# Installed 
+## Installed 
 1. **Apache2** ```sudo apt-get install apache2```
 2. An application handler - **mod_wsgi**```sudo apt-get install python-setuptools libapache2-mod-wsgi```
 3. **Postgresql**```sudo apt-get install postgresql```
@@ -25,7 +26,7 @@ This is the udacity linux server configuration project
 10. **Dependencies** ```sudo pip install -r requirements.txt```
 11. **psycopg2** ```sudo apt-get -qqy install postgresql python-psycopg2```
 
-# Configuration Changes 
+## Configuration Changes 
 1. **Firewall**
     ```sudo ufw allow 2200/tcp ```
     ```sudo ufw allow 80/tcp```
@@ -50,5 +51,5 @@ This is the udacity linux server configuration project
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
 
-# Thid party resources
+## Thid party resources
 - Amazon LightSail
