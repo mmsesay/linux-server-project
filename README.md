@@ -1,11 +1,11 @@
 # linux-server-project
 This is the udacity linux server configuration project
 
-## Login to using the SSH
-1. Clone this repository
-2. Move the private key file into the folder ~/.ssh (where ~ is your environment's home directory). So if you cloned the folder, just execute the following command in your terminal. mv ~/<repo_path>/udacity_key ~/.ssh/
-3. Open your terminal and type in chmod 600 ~/.ssh/udacity_key
-4. In your terminal, type in ssh -i ~/.ssh/udacity_key ubuntu@18.184.54.64
+## Login using the SSH
+1. Create a file into this folder ```sudo touch ~/.ssh/<keyname>```
+2. Edit the file and paste the ssh key I submitted. ```sudo vim ~/.ssh/<keyname>```
+3. Open your terminal and type in change the permission to the file ```chmod 600 ~/.ssh/<keyname>```
+4. Now login using the ssh. Type: ```ssh -i ~/.ssh/<keyname> grader@18.184.54.64``` or ```ssh grader@18.184.54.64```
 
 ## Server Details
 - IP address : 18.184.54.64
