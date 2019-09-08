@@ -11,7 +11,9 @@ This is the udacity linux server configuration project
 - IP address : 18.184.54.64
 - SSH PORT : 2200
 - HOSTED APPLICATION URL : http://18.184.54.64/
+- Passphrase : udacity_key
 - Note: your grader password is: grader
+
 
 ## Installed 
 1. **Apache2** ```sudo apt-get install apache2```
