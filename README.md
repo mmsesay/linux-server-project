@@ -5,12 +5,12 @@ This is the udacity linux server configuration project
 1. Create a file into this folder ```sudo touch ~/.ssh/<keyname>```
 2. Edit the file and paste the ssh key I submitted. ```sudo vim ~/.ssh/<keyname>```
 3. Open your terminal and type in change the permission to the file ```chmod 600 ~/.ssh/<keyname>```
-4. Now login using the ssh. Type: ```ssh -i ~/.ssh/<keyname> grader@18.195.116.250``` or ```ssh grader@18.195.116.250```
+4. Now login using the ssh. Type: ```ssh -i ~/.ssh/<keyname> grader@3.120.182.168``` or ```ssh grader@3.120.182.168```
 
 ## Server Details
-- IP address : 18.195.116.250
+- IP address : 3.120.182.168
 - SSH PORT : 2200
-- HOSTED APPLICATION URL : http://18.195.116.250/
+- HOSTED APPLICATION URL : http://3.120.182.168/
 - Passphrase : udacity
 - Note: your grader password is: grader
 
